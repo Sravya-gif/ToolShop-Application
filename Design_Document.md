@@ -91,7 +91,6 @@ NopStore
 
 * User Registration (valid & duplicate cases)
 * Login (valid & invalid)
-* Logout
 * Product Search and Category Navigation
 * Add to Cart and Cart Management
 * Wishlist (add, already exists validation)
