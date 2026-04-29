@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AutomationSuite">
+
+      <listeners>
+          <listener class-name="com.srm.listener.TestListener"/>
+      </listeners>
+
+    <test name="AllTests">
+
+        <classes>
+            <class name="com.srm.tests.RegisterTest"/>
+            <class name="com.srm.tests.LoginTest"/> 
+             <class name="com.srm.tests.CartTest"/> 
+             <class name="com.srm.tests.SearchTest"/>    
+            <class name="com.srm.tests.WishlistTest"/>
+            <class name="com.srm.tests.CheckoutTest"/>
+            <class name="com.srm.tests.FormValidationTest"/>
+        </classes>
+
+    </test>
+
+</suite>
